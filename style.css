@@ -1,0 +1,120 @@
+/* Custom CSS styles go here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav {
+    display: inline;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-box {
+    float: right;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+section.books {
+    padding: 40px 0;
+}
+
+.books h2 {
+    text-align: center;
+}
+
+.book-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    flex: 0 0 calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.book-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    margin: 0;
+}
+
+.book-card p {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.btn-buy {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+.about{
+    margin: 20px;
+    margin-top: 30px;
+}
+.box{
+    height: max-content;
+    background-color: rgb(165, 208, 245);
+    
+}
